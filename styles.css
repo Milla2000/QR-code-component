@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@500&display=swap");
+body {
+  background-color: rgb(198, 200, 202);
+}
+.container {
+  margin-top: 12vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+}
+.container img {
+  margin: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  /* object-fit: contain; */
+}
+/* .img {
+  margin-left: 50px;
+} */
+
+.qr-code-text {
+  text-align: center;
+  object-fit: contain;
+
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.qr-code-text h1 {
+  font-size: 25px;
+  /* font-weight: 600; */
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.qr-code-text p {
+  opacity: 0.6;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
